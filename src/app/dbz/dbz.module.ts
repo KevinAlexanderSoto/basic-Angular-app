@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MainPageComponentComponent } from './pages/main-page.component.component';
+import { MainPageComponent } from './pages/main-page.component.component';
 
 
 
 @NgModule({
   declarations: [
-    MainPageComponentComponent
+    MainPageComponent
+  ],
+  exports: [
+    MainPageComponent
   ],
   imports: [
     CommonModule
